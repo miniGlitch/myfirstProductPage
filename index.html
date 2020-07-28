@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,300,700,100"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <img id="header-img" class="logo" src="logo2.jpg" alt="company logo" />
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#videos">Videos</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="banner">
+      <div id="overlay">
+        <h1 id="title">We offer professional products for salons</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" />
+          <div class="wrapper">
+            <button>
+              GET QUOTE
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div class="container">
+      <section id="services">
+        <div class="column">
+          <div class="services-titles">
+            <i class="material-icons" style="font-size: 36px;">card_giftcard</i>
+            <h2>Premium Products</h2>
+            <p id="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              hendrerit nisi sed sollicitudin pellentesque.
+            </p>
+          </div>
+          <div class="services-titles">
+            <i class="material-icons" style="font-size: 36px;">cloud</i>
+            <h2>Quality Assurance</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              hendrerit nisi sed sollicitudin pellentesque.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="services-titles">
+            <i class="material-icons" style="font-size: 36px;">face</i>
+            <h2>Happy clients</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              hendrerit nisi sed sollicitudin pellentesque.
+            </p>
+          </div>
+          <div class="services-titles">
+            <i class="material-icons" style="font-size: 36px;">grade</i>
+            <h2>Gift cards</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              hendrerit nisi sed sollicitudin pellentesque.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="videos">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Y4NJ_p6Beds"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <div id="pricing" class="price-table-wrapper">
+        <div class="pricing-table">
+          <h2 class="pricing-table__header">- BASIC -</h2>
+          <h3 class="pricing-table__price">£500</h3>
+          <a target="_blank" class="pricing-table__button" href="">
+            Join Now!
+          </a>
+          <ul class="pricing-table__list">
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+
+        <div class="pricing-table featured-table">
+          <h2 class="pricing-table__header">- BUSINESS -</h2>
+          <h3 class="pricing-table__price">£800</h3>
+          <a target="_blank" class="pricing-table__button" href="">
+            Join Now!
+          </a>
+          <ul class="pricing-table__list">
+            <li>Lorem ipsum</li>
+            <li>lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+        <div class="pricing-table">
+          <h2 class="pricing-table__header">- PREMIUM -</h2>
+          <h3 class="pricing-table__price">£1300</h3>
+          <a target="_blank" class="pricing-table__button" href="">
+            Join Now!
+          </a>
+          <ul class="pricing-table__list">
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2020, Style Nature Organic Beauty</span>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
